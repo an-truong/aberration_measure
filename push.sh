@@ -1,6 +1,4 @@
-repo_name=aberration_measure
-git init
-git remote add origin git@github.com:an-truong/$repo_name.git
+msg="ignore some bash script"
 git add .
-git commit -m 'first push'
+git commit -m "$msg"
 git push -u origin master
